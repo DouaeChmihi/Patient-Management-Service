@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PatientMgmt.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4e8a796408a3c74db8fa1126234f56f0ed3b962")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ef28c7e0a15b0a46a2c4950e243ca438fe234ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("PatientMgmt.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PatientMgmt.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

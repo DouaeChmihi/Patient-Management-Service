@@ -1,10 +1,17 @@
 using DotNetEnv;
+using Microsoft.EntityFrameworkCore;
+using PatientMgmt.Infrastracture.EF;
 
 Env.Load();  // Charge les variables d'environnement depuis .env
 
 var password = Environment.GetEnvironmentVariable("DATABASE_PASSWORD");
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configuration du DbContext avec la chaîne de connexion de appsettings.json
+builder.Services.AddEntityFrameworkNpgsql().AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

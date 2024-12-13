@@ -2174,6 +2174,37 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "PatientMgmt.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DotNetEnv": "3.1.1",
+          "Microsoft.EntityFrameworkCore": "8.0.11",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11",
+          "PatientMgmt.SDK": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PatientMgmt.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PatientMgmt.Models.dll": {}
+        }
+      },
+      "PatientMgmt.SDK/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DotNetEnv": "3.1.1",
+          "Microsoft.EntityFrameworkCore": "8.0.11",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
+        },
+        "compile": {
+          "bin/placeholder/PatientMgmt.SDK.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PatientMgmt.SDK.dll": {}
+        }
       }
     }
   },
@@ -6777,6 +6808,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "PatientMgmt.Models/1.0.0": {
+      "type": "project",
+      "path": "../PatientMgmt.Models/PatientMgmt.Models.csproj",
+      "msbuildProject": "../PatientMgmt.Models/PatientMgmt.Models.csproj"
+    },
+    "PatientMgmt.SDK/1.0.0": {
+      "type": "project",
+      "path": "../PatientMgmt.SDK/PatientMgmt.SDK.csproj",
+      "msbuildProject": "../PatientMgmt.SDK/PatientMgmt.SDK.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6784,7 +6825,8 @@
       "DotNetEnv >= 3.1.1",
       "Microsoft.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.11"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.11",
+      "PatientMgmt.Models >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -6812,7 +6854,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
+              "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

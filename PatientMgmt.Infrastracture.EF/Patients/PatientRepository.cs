@@ -1,37 +1,49 @@
-﻿using PatientMgmt.Infrastracture.Abstractions;
+﻿using Microsoft.EntityFrameworkCore;
+using PatientMgmt.Infrastracture.Abstractions;
 using PatientMgmt.Models;
 
 namespace PatientMgmt.Infrastracture.EF.Patients;
 
 public class PatientRepository : IPatientRepository
 {
-    public Task<Patient?> GetPatientByEmailAsync(Guid patientId)
+    private readonly ApplicationDbContext _context;
+
+    public PatientRepository(ApplicationDbContext context)
     {
-        throw new NotImplementedException();
+        _context = context;
+    }
+    
+    public async Task<Patient?> GetPatientByEmailAsync(string email)
+    {
+        return await _context.Patients
+            .FirstOrDefaultAsync(p => p.Email == email);
+    }
+    public async Task AddAsync(Patient patient)
+    {
+        await _context.Patients.AddAsync(patient);
+        await _context.SaveChangesAsync();
     }
 
-    public Task AddAsync(Patient patient)
+    public async Task<Patient> GetByIdAsync(int id)
     {
-        throw new NotImplementedException();
+        return await _context.Patients
+            .FindAsync(id) ?? throw new KeyNotFoundException("Patient not found.");
     }
 
-    public Task<Patient> GetByIdAsync(int id)
+    public async Task<IEnumerable<Patient>> GetAllAsync()
     {
-        throw new NotImplementedException();
+        return await _context.Patients.ToListAsync();
     }
 
-    public Task<IEnumerable<Patient>> GetAllAsync()
+    public async Task UpdateAsync(Patient patient)
     {
-        throw new NotImplementedException();
+        _context.Patients.Update(patient);
+        await _context.SaveChangesAsync();
     }
 
-    public Task UpdateAsync(Patient patient)
+    public async Task DeleteAsync(Patient patient)
     {
-        throw new NotImplementedException();
-    }
-
-    public Task DeleteAsync(Patient patient)
-    {
-        throw new NotImplementedException();
+        _context.Patients.Remove(patient);
+        await _context.SaveChangesAsync();
     }
 }

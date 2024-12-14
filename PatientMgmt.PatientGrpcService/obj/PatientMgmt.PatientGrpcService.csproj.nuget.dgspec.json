@@ -4,15 +4,16 @@
     "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.PatientGrpcService\\PatientMgmt.PatientGrpcService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.PatientGrpcService\\PatientMgmt.PatientGrpcService.csproj": {
+    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.PatientGrpcService\\PatientMgmt.PatientGrpcService.csproj",
-        "projectName": "PatientMgmt.PatientGrpcService",
-        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.PatientGrpcService\\PatientMgmt.PatientGrpcService.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj",
+        "projectName": "PatientMgmt.DTO",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.PatientGrpcService\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
@@ -37,8 +38,354 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj",
+        "projectName": "PatientMgmt.Infrastracture.Abstractions",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj",
+        "projectName": "PatientMgmt.Infrastracture.EF",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj"
+              },
+              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj",
+        "projectName": "PatientMgmt.Models",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj"
+              },
+              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.PatientGrpcService\\PatientMgmt.PatientGrpcService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.PatientGrpcService\\PatientMgmt.PatientGrpcService.csproj",
+        "projectName": "PatientMgmt.PatientGrpcService",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.PatientGrpcService\\PatientMgmt.PatientGrpcService.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.PatientGrpcService\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj"
+              },
+              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Abstractions\\PatientMgmt.Services.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Abstractions\\PatientMgmt.Services.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -74,6 +421,174 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj",
+        "projectName": "PatientMgmt.SDK",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.68.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Abstractions\\PatientMgmt.Services.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Abstractions\\PatientMgmt.Services.Abstractions.csproj",
+        "projectName": "PatientMgmt.Services.Abstractions",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Abstractions\\PatientMgmt.Services.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

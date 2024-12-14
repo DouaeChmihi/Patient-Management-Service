@@ -1,3 +1,4 @@
+using Grpc.Net.Client;
 using Microsoft.EntityFrameworkCore;
 using PatientMgmt.Infrastracture.Abstractions;
 using PatientMgmt.Infrastracture.EF;
@@ -22,6 +23,18 @@ builder.Services.AddScoped<PatientService>();
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
+
+// Ajouter les services nécessaires
+builder.Services.AddGrpc();
+
+builder.Services.AddSingleton(services =>
+{
+    var channel = GrpcChannel.ForAddress("https://localhost:5001"); // Remplacez par l'URL du serveur gRPC
+    return channel;
+});
+
+builder.Services.AddControllers();
+
 
 // Build the app before using services
 var app = builder.Build();

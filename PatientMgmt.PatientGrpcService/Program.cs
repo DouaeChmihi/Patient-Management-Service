@@ -4,14 +4,14 @@ using PatientMgmt.PatientGrpcService.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddGrpc();
+builder.Services.AddGrpc(options =>
+{
+    options.EnableDetailedErrors = true;
+});
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-app.MapGrpcService<PatientService>();
-app.MapGet("/",
-    () =>
-        "Communication with gRPC endpoints must be made through a gRPC client. To learn how to create a client, visit: https://go.microsoft.com/fwlink/?linkid=2086909");
+app.MapGrpcService<PatientService>(); // Le service PatientService est mappé à gRPC
 
-app.Run();
+app.Run("http://localhost:5000"); // Le serveur gRPC écoute sur http://localhost:5000

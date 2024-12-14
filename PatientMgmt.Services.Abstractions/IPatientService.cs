@@ -1,6 +1,6 @@
-﻿using PatientMgmt.Models;
+using PatientMgmt.Models;
 
-namespace CabinetMedicale.Services.Abstractions;
+namespace PatientMgmt.Services.Abstractions;
 
 public interface IPatientService
 {

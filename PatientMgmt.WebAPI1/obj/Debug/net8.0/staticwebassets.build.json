@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "tCHm70FQdIEdZ+g1HL5z2mQawkmYay8MG2Rfn3G3zRI=",
+  "Hash": "DoAavKKJVdm0gQ6f7jQE2uUZRmAT7Eyx/coQan5h9Ko=",
   "Source": "PatientMgmt.WebAPI1",
   "BasePath": "_content/PatientMgmt.WebAPI1",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.PatientGrpcService\\PatientMgmt.PatientGrpcService.csproj",
+      "Version": 2,
+      "Source": "PatientMgmt.PatientGrpcService",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": [],
   "Endpoints": []

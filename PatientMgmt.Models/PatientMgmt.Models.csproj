@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\PatientMgmt.DTO\PatientMgmt.DTO.csproj" />
       <ProjectReference Include="..\PatientMgmt.SDK\PatientMgmt.SDK.csproj" />
     </ItemGroup>
 

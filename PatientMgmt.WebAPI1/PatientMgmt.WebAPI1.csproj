@@ -10,12 +10,18 @@
         <PackageReference Include="DotNetEnv" Version="3.1.1" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.11"/>
         <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.11" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.11">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\PatientMgmt.Infrastracture.EF\PatientMgmt.Infrastracture.EF.csproj" />
+      <ProjectReference Include="..\PatientMgmt.PatientGrpcService\PatientMgmt.PatientGrpcService.csproj" />
+      <ProjectReference Include="..\PatientMgmt.Services.Abstractions\PatientMgmt.Services.Abstractions.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,15 @@
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\bin\Debug\net8.0\PatientMgmt.Services.Tests.deps.json
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\bin\Debug\net8.0\PatientMgmt.Services.Tests.runtimeconfig.json
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\bin\Debug\net8.0\PatientMgmt.Services.Tests.dll
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\bin\Debug\net8.0\PatientMgmt.Services.Tests.pdb
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\PatientMgmt.Services.Tests.csproj.AssemblyReference.cache
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\PatientMgmt.Services.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\PatientMgmt.Services.Tests.AssemblyInfoInputs.cache
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\PatientMgmt.Services.Tests.AssemblyInfo.cs
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\PatientMgmt.Services.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\PatientMgmt.Services.Tests.sourcelink.json
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\PatientMgmt.Services.Tests.dll
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\refint\PatientMgmt.Services.Tests.dll
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\PatientMgmt.Services.Tests.pdb
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\PatientMgmt.Services.Tests.genruntimeconfig.cache
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Services.Tests\obj\Debug\net8.0\ref\PatientMgmt.Services.Tests.dll

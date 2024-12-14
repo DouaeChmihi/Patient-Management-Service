@@ -2,7 +2,9 @@ C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Models\bin\Debug\net8.0\Pa
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Models\bin\Debug\net8.0\PatientMgmt.Models.runtimeconfig.json
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Models\bin\Debug\net8.0\PatientMgmt.Models.dll
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Models\bin\Debug\net8.0\PatientMgmt.Models.pdb
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Models\bin\Debug\net8.0\PatientMgmt.DTO.dll
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Models\bin\Debug\net8.0\PatientMgmt.SDK.dll
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Models\bin\Debug\net8.0\PatientMgmt.DTO.pdb
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Models\bin\Debug\net8.0\PatientMgmt.SDK.pdb
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Models\obj\Debug\net8.0\PatientMgmt.Models.csproj.AssemblyReference.cache
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Models\obj\Debug\net8.0\PatientMgmt.Models.GeneratedMSBuildEditorConfig.editorconfig

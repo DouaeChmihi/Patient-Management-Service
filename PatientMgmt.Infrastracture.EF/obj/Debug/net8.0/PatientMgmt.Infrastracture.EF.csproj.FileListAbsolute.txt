@@ -2,11 +2,13 @@ C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debu
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.Infrastracture.EF.runtimeconfig.json
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.Infrastracture.EF.dll
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.Infrastracture.EF.pdb
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.DTO.dll
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.Infrastracture.Abstractions.dll
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.Models.dll
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.SDK.dll
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.Infrastracture.Abstractions.pdb
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.Models.pdb
+C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.DTO.pdb
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\bin\Debug\net8.0\PatientMgmt.SDK.pdb
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\obj\Debug\net8.0\PatientMgmt.Infrastracture.EF.csproj.AssemblyReference.cache
 C:\Users\Hp\RiderProjects\CabinetMedicale\PatientMgmt.Infrastracture.EF\obj\Debug\net8.0\PatientMgmt.Infrastracture.EF.GeneratedMSBuildEditorConfig.editorconfig

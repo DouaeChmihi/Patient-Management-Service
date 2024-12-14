@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PatientMgmt.Services.Abstractions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f10f4e27f950051c9272c760236a81da5d90a793")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1417f1c6c7c27f31f678365f33bcfcedd05d64c6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PatientMgmt.Services.Abstractions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PatientMgmt.Services.Abstractions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

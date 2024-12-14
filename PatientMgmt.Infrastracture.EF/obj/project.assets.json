@@ -2175,6 +2175,21 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "PatientMgmt.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "DotNetEnv": "3.1.1",
+          "Microsoft.EntityFrameworkCore": "8.0.11",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
+        },
+        "compile": {
+          "bin/placeholder/PatientMgmt.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PatientMgmt.DTO.dll": {}
+        }
+      },
       "PatientMgmt.Infrastracture.Abstractions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2198,6 +2213,7 @@
           "DotNetEnv": "3.1.1",
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11",
+          "PatientMgmt.DTO": "1.0.0",
           "PatientMgmt.SDK": "1.0.0"
         },
         "compile": {
@@ -6825,6 +6841,11 @@
         "system.xml.xdocument.nuspec"
       ]
     },
+    "PatientMgmt.DTO/1.0.0": {
+      "type": "project",
+      "path": "../PatientMgmt.DTO/PatientMgmt.DTO.csproj",
+      "msbuildProject": "../PatientMgmt.DTO/PatientMgmt.DTO.csproj"
+    },
     "PatientMgmt.Infrastracture.Abstractions/1.0.0": {
       "type": "project",
       "path": "../PatientMgmt.Infrastracture.Abstractions/PatientMgmt.Infrastracture.Abstractions.csproj",
@@ -6845,6 +6866,7 @@
     "net8.0": [
       "DotNetEnv >= 3.1.1",
       "Microsoft.EntityFrameworkCore >= 8.0.11",
+      "Microsoft.EntityFrameworkCore.Design >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 8.0.11",
       "PatientMgmt.Infrastracture.Abstractions >= 1.0.0",
@@ -6906,6 +6928,12 @@
             "version": "[3.1.1, )"
           },
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[8.0.11, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.11, )"
           },

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PatientMgmt.PatientGrpcService.props" />
+</Project>

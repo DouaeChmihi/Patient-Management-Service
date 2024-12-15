@@ -1,0 +1,3 @@
+obj\Debug\net8.0\Protos/Patient.cs \
+obj\Debug\net8.0\Protos/PatientGrpc.cs: C:/Users/Hp/.nuget/packages/grpc.tools/2.68.1/build/native/include/google/protobuf/timestamp.proto\
+ Protos/patient.proto

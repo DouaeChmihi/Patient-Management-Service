@@ -4,10 +4,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2EA132
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{51E2C9C5-8447-4CB8-9297-341CF66E1C26}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{D319851A-2EF9-42DF-837D-464BEA088E93}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMgmt.Services.Abstractions", "PatientMgmt.Services.Abstractions\PatientMgmt.Services.Abstractions.csproj", "{3C39016A-92E4-4794-A287-A48D13127B6B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMgmt.Services.Tests", "PatientMgmt.Services.Tests\PatientMgmt.Services.Tests.csproj", "{38AC0B52-4308-45D3-BE3D-96931F2F2127}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMgmt.Infrastracture.Abstractions", "PatientMgmt.Infrastracture.Abstractions\PatientMgmt.Infrastracture.Abstractions.csproj", "{0775DADB-1384-4AB4-8672-44A63340AE60}"
@@ -22,9 +18,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMgmt.Models", "Patie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMgmt.SDK", "PatientMgmt.SDK\PatientMgmt.SDK.csproj", "{D896646D-5F57-49B1-8092-222E98E881E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMgmt.WebAPI1", "PatientMgmt.WebAPI1\PatientMgmt.WebAPI1.csproj", "{F8378CA7-1988-492A-9FD7-0591CB09EB1C}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{8553A0BD-4C98-4D52-8C7C-F24C93CB28D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMgmt.PatientGrpcService", "PatientMgmt.PatientGrpcService\PatientMgmt.PatientGrpcService.csproj", "{32DC4E50-EE0F-4A63-887E-8F6D247E452B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientGmt.PatientGrpcService", "PatientGmt.PatientGrpcService\PatientGmt.PatientGrpcService.csproj", "{31EC200F-8221-4F7C-ABEB-DD21191E6651}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMgmt.Services.Abstractions", "PatientMgmt.Services.Abstractions\PatientMgmt.Services.Abstractions.csproj", "{288CEDA1-1606-4B8A-8D54-9BDF21DB6914}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientMgmt.Services", "PatientMgmt.Services\PatientMgmt.Services.csproj", "{A5EE20FE-1D85-47FB-93E4-549F4A0F8627}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,19 +32,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{3C39016A-92E4-4794-A287-A48D13127B6B} = {2EA132D8-090B-45FB-AB09-0457C76FC8C1}
 		{38AC0B52-4308-45D3-BE3D-96931F2F2127} = {2EA132D8-090B-45FB-AB09-0457C76FC8C1}
 		{0775DADB-1384-4AB4-8672-44A63340AE60} = {51E2C9C5-8447-4CB8-9297-341CF66E1C26}
 		{7E860BF8-6472-4C57-83F4-186A44F83110} = {51E2C9C5-8447-4CB8-9297-341CF66E1C26}
 		{C6D8B1ED-B25E-47EE-8C69-D33AEDF9C3E4} = {51E2C9C5-8447-4CB8-9297-341CF66E1C26}
-		{F8378CA7-1988-492A-9FD7-0591CB09EB1C} = {D319851A-2EF9-42DF-837D-464BEA088E93}
-		{32DC4E50-EE0F-4A63-887E-8F6D247E452B} = {2EA132D8-090B-45FB-AB09-0457C76FC8C1}
+		{31EC200F-8221-4F7C-ABEB-DD21191E6651} = {8553A0BD-4C98-4D52-8C7C-F24C93CB28D4}
+		{288CEDA1-1606-4B8A-8D54-9BDF21DB6914} = {2EA132D8-090B-45FB-AB09-0457C76FC8C1}
+		{A5EE20FE-1D85-47FB-93E4-549F4A0F8627} = {2EA132D8-090B-45FB-AB09-0457C76FC8C1}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3C39016A-92E4-4794-A287-A48D13127B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3C39016A-92E4-4794-A287-A48D13127B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3C39016A-92E4-4794-A287-A48D13127B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3C39016A-92E4-4794-A287-A48D13127B6B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{38AC0B52-4308-45D3-BE3D-96931F2F2127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{38AC0B52-4308-45D3-BE3D-96931F2F2127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38AC0B52-4308-45D3-BE3D-96931F2F2127}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -73,13 +69,17 @@ Global
 		{D896646D-5F57-49B1-8092-222E98E881E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D896646D-5F57-49B1-8092-222E98E881E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D896646D-5F57-49B1-8092-222E98E881E8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F8378CA7-1988-492A-9FD7-0591CB09EB1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F8378CA7-1988-492A-9FD7-0591CB09EB1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F8378CA7-1988-492A-9FD7-0591CB09EB1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F8378CA7-1988-492A-9FD7-0591CB09EB1C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{32DC4E50-EE0F-4A63-887E-8F6D247E452B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{32DC4E50-EE0F-4A63-887E-8F6D247E452B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{32DC4E50-EE0F-4A63-887E-8F6D247E452B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{32DC4E50-EE0F-4A63-887E-8F6D247E452B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31EC200F-8221-4F7C-ABEB-DD21191E6651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31EC200F-8221-4F7C-ABEB-DD21191E6651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31EC200F-8221-4F7C-ABEB-DD21191E6651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31EC200F-8221-4F7C-ABEB-DD21191E6651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{288CEDA1-1606-4B8A-8D54-9BDF21DB6914}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{288CEDA1-1606-4B8A-8D54-9BDF21DB6914}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{288CEDA1-1606-4B8A-8D54-9BDF21DB6914}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{288CEDA1-1606-4B8A-8D54-9BDF21DB6914}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EE20FE-1D85-47FB-93E4-549F4A0F8627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EE20FE-1D85-47FB-93E4-549F4A0F8627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EE20FE-1D85-47FB-93E4-549F4A0F8627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EE20FE-1D85-47FB-93E4-549F4A0F8627}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

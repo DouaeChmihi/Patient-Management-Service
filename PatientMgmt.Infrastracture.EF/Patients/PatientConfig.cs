@@ -15,7 +15,6 @@ internal class PatientConfig
         builder.HasIndex(p => p.Email).IsUnique();
         builder.Property(p => p.PhoneNumber).HasMaxLength(50);
         builder.Property(p => p.Gender).HasMaxLength(50);
-        builder.Property(p => p.DateOfBirth).HasMaxLength(50);
         
     }
     

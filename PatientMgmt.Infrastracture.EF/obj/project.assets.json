@@ -6879,11 +6879,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj",
       "projectName": "PatientMgmt.Infrastracture.EF",
-      "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj",
+      "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\obj\\",
+      "outputPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.EF\\obj\\",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
@@ -6899,11 +6899,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj": {
-              "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj"
+            "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj"
             },
-            "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
-              "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj"
+            "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
+              "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Models\\PatientMgmt.Models.csproj"
             }
           }
         }

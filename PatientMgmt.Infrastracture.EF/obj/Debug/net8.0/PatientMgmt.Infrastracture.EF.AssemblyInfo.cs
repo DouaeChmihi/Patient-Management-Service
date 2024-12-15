@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PatientMgmt.Infrastracture.EF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57195368eceaa50eb8f902c2d6056f55be5f2b84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92dfe7170505cf0fc9876433d19e7d7625303f90")]
 [assembly: System.Reflection.AssemblyProductAttribute("PatientMgmt.Infrastracture.EF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PatientMgmt.Infrastracture.EF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

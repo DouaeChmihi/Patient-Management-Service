@@ -37,9 +37,6 @@ namespace PatientMgmt.Infrastracture.EF.Migrations
                     b.Property<DateTime>("CreatedOn")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<DateTime>("DateOfBirth")
-                        .HasColumnType("timestamp with time zone");
-
                     b.Property<bool>("Deleted")
                         .HasColumnType("boolean");
 

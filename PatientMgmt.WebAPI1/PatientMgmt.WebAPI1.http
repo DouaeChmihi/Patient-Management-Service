@@ -1,6 +1,0 @@
-@PatientMgmt.WebAPI1_HostAddress = http://localhost:5029
-
-GET {{PatientMgmt.WebAPI1_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj": {}
+    "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj": {
+    "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj",
         "projectName": "PatientMgmt.DTO",
-        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj": {
+    "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj",
         "projectName": "PatientMgmt.Infrastracture.Abstractions",
-        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -106,8 +106,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
-                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj"
+              "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Models\\PatientMgmt.Models.csproj"
               }
             }
           }
@@ -166,14 +166,14 @@
         }
       }
     },
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj": {
+    "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj",
         "projectName": "PatientMgmt.Infrastracture.EF",
-        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.EF\\PatientMgmt.Infrastracture.EF.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.EF\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.EF\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -189,11 +189,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj"
+              "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Infrastracture.Abstractions\\PatientMgmt.Infrastracture.Abstractions.csproj"
               },
-              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
-                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj"
+              "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Models\\PatientMgmt.Models.csproj"
               }
             }
           }
@@ -258,14 +258,14 @@
         }
       }
     },
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
+    "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Models\\PatientMgmt.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Models\\PatientMgmt.Models.csproj",
         "projectName": "PatientMgmt.Models",
-        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\PatientMgmt.Models.csproj",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Models\\PatientMgmt.Models.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Models\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Models\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
@@ -281,11 +281,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj": {
-                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj"
+              "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj"
               },
-              "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj": {
-                "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj"
+              "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj": {
+                "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj"
               }
             }
           }
@@ -344,14 +344,14 @@
         }
       }
     },
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj": {
+    "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj",
         "projectName": "PatientMgmt.SDK",
-        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

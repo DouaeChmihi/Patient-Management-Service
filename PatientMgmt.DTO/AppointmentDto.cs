@@ -7,7 +7,4 @@ public class AppointmentDto{
     public int AppointmentId { get; set; }
     public DateTime AppointmentDate { get; set; }
     public string DoctorName { get; set; }
-    public string Notes { get; set; }
-    public int PatientId { get; set; } // Identifiant du patient (pas l'objet complet)
-    
 }

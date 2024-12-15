@@ -6793,11 +6793,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj",
+      "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj",
       "projectName": "PatientMgmt.DTO",
-      "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj",
+      "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.DTO\\PatientMgmt.DTO.csproj",
       "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.DTO\\obj\\",
+      "outputPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.DTO\\obj\\",
       "projectStyle": "PackageReference",
       "UsingMicrosoftNETSdk": false,
       "configFilePaths": [

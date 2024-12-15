@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Tests\\PatientMgmt.Services.Tests.csproj": {}
+    "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Services.Tests\\PatientMgmt.Services.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Tests\\PatientMgmt.Services.Tests.csproj": {
+    "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Services.Tests\\PatientMgmt.Services.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Tests\\PatientMgmt.Services.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Services.Tests\\PatientMgmt.Services.Tests.csproj",
         "projectName": "PatientMgmt.Services.Tests",
-        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Tests\\PatientMgmt.Services.Tests.csproj",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Services.Tests\\PatientMgmt.Services.Tests.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Services.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

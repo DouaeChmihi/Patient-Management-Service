@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I9EmEAxpBLM=",
+  "dgSpecHash": "qRkga4+fKAY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.Services.Tests\\PatientMgmt.Services.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Services.Tests\\PatientMgmt.Services.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hp\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

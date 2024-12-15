@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj": {}
+    "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj": {
+    "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj",
+        "projectUniqueName": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj",
         "projectName": "PatientMgmt.SDK",
-        "projectPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj",
+        "projectPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\PatientMgmt.SDK.csproj",
         "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hp\\RiderProjects\\CabinetMedicale\\PatientMgmt.SDK\\obj\\",
+        "outputPath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.SDK\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [

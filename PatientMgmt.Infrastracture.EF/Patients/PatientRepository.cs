@@ -37,7 +37,19 @@ public class PatientRepository : IPatientRepository
 
     public async Task UpdateAsync(Patient patient)
     {
-        _context.Patients.Update(patient);
+        var existingPatient = await _context.Patients.FindAsync(patient.Id);
+        if (existingPatient == null)
+        {
+            throw new ArgumentException($"Patient with ID {patient.Id} not found.");
+        }
+
+        existingPatient.Name = patient.Name;
+        existingPatient.Address = patient.Address;
+        existingPatient.Email = patient.Email;
+        existingPatient.PhoneNumber = patient.PhoneNumber;
+        existingPatient.Gender = patient.Gender;
+        existingPatient.UpdatedOn = DateTime.UtcNow; // Mise à jour de la date
+
         await _context.SaveChangesAsync();
     }
 

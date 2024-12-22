@@ -5,15 +5,20 @@ using PatientMgmt.Infrastracture.EF;
 using PatientMgmt.Infrastracture.EF.Patients;
 using PatientMgmt.Services;
 using PatientMgmt.Services.Abstractions;
-
+using Steeltoe.Discovery.Client;
 var builder = WebApplication.CreateBuilder(args);
 
+// Add Steeltoe Discovery Eureka for service registration
+builder.Services.AddDiscoveryClient(builder.Configuration);
 // Add services to the container.
 builder.Services.AddGrpc();
+
 
 // Register the service
 builder.Services.AddScoped<IPatientService, PatientService>();
 builder.Services.AddScoped<IPatientRepository, PatientRepository>();
+
+builder.Services.AddHttpClient<IAppointmentService, AppointmentService>();
 
 // Configure the DbContext with the connection string from appsettings.json
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

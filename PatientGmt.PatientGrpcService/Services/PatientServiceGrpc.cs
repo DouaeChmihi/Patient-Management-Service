@@ -5,7 +5,7 @@ using PatientMgmt.Services.Abstractions;
 public class PatientServiceGrpc : PatientProto.PatientProtoBase
 {
     private readonly IPatientService _patientService;
-
+    private readonly IAppointmentService _appointmentService;
     public PatientServiceGrpc(IPatientService patientService)
     {
         _patientService = patientService;
@@ -106,8 +106,10 @@ public class PatientServiceGrpc : PatientProto.PatientProtoBase
         };
     }
 
-    public override Task<GetPatientRendezVousResponse> GetPatientRendezVous(GetPatientRendezVousRequest request, ServerCallContext context)
+    public override async Task<GetPatientRendezVousResponse> GetPatientRendezVous(GetPatientRendezVousRequest request, ServerCallContext context)
     {
-        return base.GetPatientRendezVous(request, context);
+
+        return null;
     }
+
 }

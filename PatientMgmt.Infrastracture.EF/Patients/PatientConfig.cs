@@ -4,7 +4,7 @@ namespace PatientMgmt.Infrastracture.EF.Patients;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-internal class PatientConfig
+internal class PatientConfig : IEntityTypeConfiguration<Patient>
 {
     public void Configure(EntityTypeBuilder<Patient> builder)
     {

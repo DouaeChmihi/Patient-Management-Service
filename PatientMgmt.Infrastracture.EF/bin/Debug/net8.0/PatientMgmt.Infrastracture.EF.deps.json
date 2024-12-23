@@ -1264,6 +1264,37 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder/5.0.1.2": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "8.0.11"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll": {
+            "assemblyVersion": "5.0.1.2",
+            "fileVersion": "5.0.1.2"
+          }
+        }
+      },
+      "Toolbelt.EntityFrameworkCore.IndexAttribute/5.0.1.2": {
+        "dependencies": {
+          "Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder": "5.0.1.2",
+          "Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute": "5.0.1.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.IndexAttribute.dll": {
+            "assemblyVersion": "5.0.1.2",
+            "fileVersion": "5.0.1.2"
+          }
+        }
+      },
+      "Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute/5.0.1.2": {
+        "runtime": {
+          "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll": {
+            "assemblyVersion": "5.0.1.2",
+            "fileVersion": "5.0.1.2"
+          }
+        }
+      },
       "PatientMgmt.DTO/1.0.0": {
         "dependencies": {
           "DotNetEnv": "3.1.1",
@@ -1297,7 +1328,8 @@
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11",
           "PatientMgmt.DTO": "1.0.0",
-          "PatientMgmt.SDK": "1.0.0"
+          "PatientMgmt.SDK": "1.0.0",
+          "Toolbelt.EntityFrameworkCore.IndexAttribute": "5.0.1.2"
         },
         "runtime": {
           "PatientMgmt.Models.dll": {
@@ -2138,6 +2170,27 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder/5.0.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CjdxYYhhhVwiAZGOzsBhY9mhQyOHj9S05ehYP3uTqFBoaBU5tjBuKD9mvscYhX5fnz8GRqXLwXY/aM1tPnyD6A==",
+      "path": "toolbelt.entityframeworkcore.annotationbasedmodelbuilder/5.0.1.2",
+      "hashPath": "toolbelt.entityframeworkcore.annotationbasedmodelbuilder.5.0.1.2.nupkg.sha512"
+    },
+    "Toolbelt.EntityFrameworkCore.IndexAttribute/5.0.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xq1O6tZpjiH4lakiQ/H1oQoKkbwNvWbgrbbcfB7iD6J5MpsXD9rEEPbeb6C4ScyLP1jPOQ4GRLFrvbTxhfMH+g==",
+      "path": "toolbelt.entityframeworkcore.indexattribute/5.0.1.2",
+      "hashPath": "toolbelt.entityframeworkcore.indexattribute.5.0.1.2.nupkg.sha512"
+    },
+    "Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute/5.0.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xmCxj1QRbDqOeCOQM6aJ+Ic3urbudF6nwozS0Jl/Ifzpbog4rwEcHbXjqK/Y2uLDl6DwCBMoXvYF29wJOtKuEg==",
+      "path": "toolbelt.entityframeworkcore.indexattribute.attribute/5.0.1.2",
+      "hashPath": "toolbelt.entityframeworkcore.indexattribute.attribute.5.0.1.2.nupkg.sha512"
     },
     "PatientMgmt.DTO/1.0.0": {
       "type": "project",

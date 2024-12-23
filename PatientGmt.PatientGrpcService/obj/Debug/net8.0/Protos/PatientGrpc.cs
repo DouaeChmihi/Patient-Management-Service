@@ -69,6 +69,14 @@ namespace PatientGmt.PatientGrpcService {
     static readonly grpc::Marshaller<global::PatientGmt.PatientGrpcService.GetPatientRendezVousRequest> __Marshaller_patient_GetPatientRendezVousRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PatientGmt.PatientGrpcService.GetPatientRendezVousRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::PatientGmt.PatientGrpcService.GetPatientRendezVousResponse> __Marshaller_patient_GetPatientRendezVousResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PatientGmt.PatientGrpcService.GetPatientRendezVousResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::PatientGmt.PatientGrpcService.GetPatientByEmailRequest> __Marshaller_patient_GetPatientByEmailRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PatientGmt.PatientGrpcService.GetPatientByEmailRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::PatientGmt.PatientGrpcService.GetPatientByEmailResponse> __Marshaller_patient_GetPatientByEmailResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PatientGmt.PatientGrpcService.GetPatientByEmailResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::PatientGmt.PatientGrpcService.PatientEmail> __Marshaller_patient_PatientEmail = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PatientGmt.PatientGrpcService.PatientEmail.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::PatientGmt.PatientGrpcService.PatientExistsResponse> __Marshaller_patient_PatientExistsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::PatientGmt.PatientGrpcService.PatientExistsResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::PatientGmt.PatientGrpcService.GetPatientByIdRequest, global::PatientGmt.PatientGrpcService.GetPatientByIdResponse> __Method_GetPatientById = new grpc::Method<global::PatientGmt.PatientGrpcService.GetPatientByIdRequest, global::PatientGmt.PatientGrpcService.GetPatientByIdResponse>(
@@ -118,6 +126,22 @@ namespace PatientGmt.PatientGrpcService {
         __Marshaller_patient_GetPatientRendezVousRequest,
         __Marshaller_patient_GetPatientRendezVousResponse);
 
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::PatientGmt.PatientGrpcService.GetPatientByEmailRequest, global::PatientGmt.PatientGrpcService.GetPatientByEmailResponse> __Method_GetPatientByEmail = new grpc::Method<global::PatientGmt.PatientGrpcService.GetPatientByEmailRequest, global::PatientGmt.PatientGrpcService.GetPatientByEmailResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "GetPatientByEmail",
+        __Marshaller_patient_GetPatientByEmailRequest,
+        __Marshaller_patient_GetPatientByEmailResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::PatientGmt.PatientGrpcService.PatientEmail, global::PatientGmt.PatientGrpcService.PatientExistsResponse> __Method_CheckPatientExists = new grpc::Method<global::PatientGmt.PatientGrpcService.PatientEmail, global::PatientGmt.PatientGrpcService.PatientExistsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CheckPatientExists",
+        __Marshaller_patient_PatientEmail,
+        __Marshaller_patient_PatientExistsResponse);
+
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -160,6 +184,18 @@ namespace PatientGmt.PatientGrpcService {
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task<global::PatientGmt.PatientGrpcService.GetPatientRendezVousResponse> GetPatientRendezVous(global::PatientGmt.PatientGrpcService.GetPatientRendezVousRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::PatientGmt.PatientGrpcService.GetPatientByEmailResponse> GetPatientByEmail(global::PatientGmt.PatientGrpcService.GetPatientByEmailRequest request, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::PatientGmt.PatientGrpcService.PatientExistsResponse> CheckPatientExists(global::PatientGmt.PatientGrpcService.PatientEmail request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -313,6 +349,46 @@ namespace PatientGmt.PatientGrpcService {
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetPatientRendezVous, null, options, request);
       }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::PatientGmt.PatientGrpcService.GetPatientByEmailResponse GetPatientByEmail(global::PatientGmt.PatientGrpcService.GetPatientByEmailRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetPatientByEmail(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::PatientGmt.PatientGrpcService.GetPatientByEmailResponse GetPatientByEmail(global::PatientGmt.PatientGrpcService.GetPatientByEmailRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_GetPatientByEmail, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::PatientGmt.PatientGrpcService.GetPatientByEmailResponse> GetPatientByEmailAsync(global::PatientGmt.PatientGrpcService.GetPatientByEmailRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return GetPatientByEmailAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::PatientGmt.PatientGrpcService.GetPatientByEmailResponse> GetPatientByEmailAsync(global::PatientGmt.PatientGrpcService.GetPatientByEmailRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_GetPatientByEmail, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::PatientGmt.PatientGrpcService.PatientExistsResponse CheckPatientExists(global::PatientGmt.PatientGrpcService.PatientEmail request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CheckPatientExists(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::PatientGmt.PatientGrpcService.PatientExistsResponse CheckPatientExists(global::PatientGmt.PatientGrpcService.PatientEmail request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CheckPatientExists, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::PatientGmt.PatientGrpcService.PatientExistsResponse> CheckPatientExistsAsync(global::PatientGmt.PatientGrpcService.PatientEmail request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CheckPatientExistsAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::PatientGmt.PatientGrpcService.PatientExistsResponse> CheckPatientExistsAsync(global::PatientGmt.PatientGrpcService.PatientEmail request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CheckPatientExists, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override PatientProtoClient NewInstance(ClientBaseConfiguration configuration)
@@ -332,7 +408,9 @@ namespace PatientGmt.PatientGrpcService {
           .AddMethod(__Method_AddPatient, serviceImpl.AddPatient)
           .AddMethod(__Method_UpdatePatient, serviceImpl.UpdatePatient)
           .AddMethod(__Method_DeletePatient, serviceImpl.DeletePatient)
-          .AddMethod(__Method_GetPatientRendezVous, serviceImpl.GetPatientRendezVous).Build();
+          .AddMethod(__Method_GetPatientRendezVous, serviceImpl.GetPatientRendezVous)
+          .AddMethod(__Method_GetPatientByEmail, serviceImpl.GetPatientByEmail)
+          .AddMethod(__Method_CheckPatientExists, serviceImpl.CheckPatientExists).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -348,6 +426,8 @@ namespace PatientGmt.PatientGrpcService {
       serviceBinder.AddMethod(__Method_UpdatePatient, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::PatientGmt.PatientGrpcService.UpdatePatientRequest, global::PatientGmt.PatientGrpcService.UpdatePatientResponse>(serviceImpl.UpdatePatient));
       serviceBinder.AddMethod(__Method_DeletePatient, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::PatientGmt.PatientGrpcService.DeletePatientRequest, global::PatientGmt.PatientGrpcService.DeletePatientResponse>(serviceImpl.DeletePatient));
       serviceBinder.AddMethod(__Method_GetPatientRendezVous, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::PatientGmt.PatientGrpcService.GetPatientRendezVousRequest, global::PatientGmt.PatientGrpcService.GetPatientRendezVousResponse>(serviceImpl.GetPatientRendezVous));
+      serviceBinder.AddMethod(__Method_GetPatientByEmail, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::PatientGmt.PatientGrpcService.GetPatientByEmailRequest, global::PatientGmt.PatientGrpcService.GetPatientByEmailResponse>(serviceImpl.GetPatientByEmail));
+      serviceBinder.AddMethod(__Method_CheckPatientExists, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::PatientGmt.PatientGrpcService.PatientEmail, global::PatientGmt.PatientGrpcService.PatientExistsResponse>(serviceImpl.CheckPatientExists));
     }
 
   }

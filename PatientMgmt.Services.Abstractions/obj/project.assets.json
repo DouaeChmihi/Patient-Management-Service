@@ -1614,6 +1614,52 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
+      "Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder/5.0.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "3.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Toolbelt.EntityFrameworkCore.IndexAttribute/5.0.1.2": {
+        "type": "package",
+        "dependencies": {
+          "Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder": "5.0.1.2",
+          "Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute": "5.0.1.2"
+        },
+        "compile": {
+          "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.IndexAttribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.IndexAttribute.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute/5.0.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "PatientMgmt.DTO/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -1637,7 +1683,8 @@
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11",
           "PatientMgmt.DTO": "1.0.0",
-          "PatientMgmt.SDK": "1.0.0"
+          "PatientMgmt.SDK": "1.0.0",
+          "Toolbelt.EntityFrameworkCore.IndexAttribute": "5.0.1.2"
         },
         "compile": {
           "bin/placeholder/PatientMgmt.Models.dll": {}
@@ -5392,6 +5439,55 @@
         "ref/xamarinwatchos10/_._",
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
+      ]
+    },
+    "Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder/5.0.1.2": {
+      "sha512": "CjdxYYhhhVwiAZGOzsBhY9mhQyOHj9S05ehYP3uTqFBoaBU5tjBuKD9mvscYhX5fnz8GRqXLwXY/aM1tPnyD6A==",
+      "type": "package",
+      "path": "toolbelt.entityframeworkcore.annotationbasedmodelbuilder/5.0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll",
+        "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.xml",
+        "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll",
+        "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.xml",
+        "nupkg-icon.png",
+        "toolbelt.entityframeworkcore.annotationbasedmodelbuilder.5.0.1.2.nupkg.sha512",
+        "toolbelt.entityframeworkcore.annotationbasedmodelbuilder.nuspec"
+      ]
+    },
+    "Toolbelt.EntityFrameworkCore.IndexAttribute/5.0.1.2": {
+      "sha512": "Xq1O6tZpjiH4lakiQ/H1oQoKkbwNvWbgrbbcfB7iD6J5MpsXD9rEEPbeb6C4ScyLP1jPOQ4GRLFrvbTxhfMH+g==",
+      "type": "package",
+      "path": "toolbelt.entityframeworkcore.indexattribute/5.0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.IndexAttribute.dll",
+        "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.IndexAttribute.xml",
+        "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.IndexAttribute.dll",
+        "lib/netstandard2.1/Toolbelt.EntityFrameworkCore.IndexAttribute.xml",
+        "nupkg-icon.png",
+        "toolbelt.entityframeworkcore.indexattribute.5.0.1.2.nupkg.sha512",
+        "toolbelt.entityframeworkcore.indexattribute.nuspec"
+      ]
+    },
+    "Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute/5.0.1.2": {
+      "sha512": "xmCxj1QRbDqOeCOQM6aJ+Ic3urbudF6nwozS0Jl/Ifzpbog4rwEcHbXjqK/Y2uLDl6DwCBMoXvYF29wJOtKuEg==",
+      "type": "package",
+      "path": "toolbelt.entityframeworkcore.indexattribute.attribute/5.0.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll",
+        "lib/netstandard2.0/Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.xml",
+        "nupkg-icon.png",
+        "toolbelt.entityframeworkcore.indexattribute.attribute.5.0.1.2.nupkg.sha512",
+        "toolbelt.entityframeworkcore.indexattribute.attribute.nuspec"
       ]
     },
     "PatientMgmt.DTO/1.0.0": {

@@ -12,7 +12,7 @@ using PatientMgmt.Infrastracture.EF;
 namespace PatientMgmt.Infrastracture.EF.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241215190813_InitialCreate")]
+    [Migration("20241223191917_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -45,24 +45,31 @@ namespace PatientMgmt.Infrastracture.EF.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.Property<string>("Gender")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
-                        .HasColumnType("text");
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
 
                     b.Property<DateTime?>("UpdatedOn")
                         .HasColumnType("timestamp with time zone");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("Patients");
                 });

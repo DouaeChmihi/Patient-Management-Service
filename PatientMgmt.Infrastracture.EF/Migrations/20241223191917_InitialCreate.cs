@@ -18,11 +18,11 @@ namespace PatientMgmt.Infrastracture.EF.Migrations
                 {
                     Id = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    Name = table.Column<string>(type: "text", nullable: false),
+                    Name = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
                     Address = table.Column<string>(type: "text", nullable: false),
-                    Email = table.Column<string>(type: "text", nullable: false),
-                    PhoneNumber = table.Column<string>(type: "text", nullable: false),
-                    Gender = table.Column<string>(type: "text", nullable: false),
+                    Email = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    PhoneNumber = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    Gender = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
                     Deleted = table.Column<bool>(type: "boolean", nullable: false),
                     CreatedOn = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     UpdatedOn = table.Column<DateTime>(type: "timestamp with time zone", nullable: true)
@@ -31,6 +31,12 @@ namespace PatientMgmt.Infrastracture.EF.Migrations
                 {
                     table.PrimaryKey("PK_Patients", x => x.Id);
                 });
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Patients_Email",
+                table: "Patients",
+                column: "Email",
+                unique: true);
         }
 
         /// <inheritdoc />

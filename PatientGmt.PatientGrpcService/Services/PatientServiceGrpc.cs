@@ -1,5 +1,6 @@
 ﻿using Grpc.Core;
 using PatientGmt.PatientGrpcService;
+using PatientMgmt.DTO;
 using PatientMgmt.Services.Abstractions;
 
 public class PatientServiceGrpc : PatientProto.PatientProtoBase
@@ -57,6 +58,14 @@ public class PatientServiceGrpc : PatientProto.PatientProtoBase
             throw new ArgumentNullException(nameof(request.Patient), "Patient data is missing.");
         }
 
+        // Check if the email already exists
+        var existingPatient = await _patientService.GetPatientByEmailAsync(request.Patient.Email);
+        if (existingPatient != null)
+        {
+            // Throwing a gRPC Status Exception with a custom error message for the email already being used
+            throw new RpcException(new Status(StatusCode.AlreadyExists, "Email is already in use. Please use a different email."));
+        }
+
         var patient = new PatientMgmt.Models.Patient
         {
             Name = request.Patient.Name,
@@ -66,14 +75,54 @@ public class PatientServiceGrpc : PatientProto.PatientProtoBase
             Gender = request.Patient.Gender,
         };
 
-        
         await _patientService.AddPatientAsync(patient);
-        var generatedId = patient.Id; // Assurez-vous que l'ID est bien mis à jour
+        var generatedId = patient.Id; // Ensure the ID is updated after adding the patient
+        
         return new AddPatientResponse
         {
             Message = "Create success",
             PatientId = generatedId
         };
+    }
+
+    public override async Task<GetPatientByEmailResponse> GetPatientByEmail(GetPatientByEmailRequest request, ServerCallContext context)
+    {
+        // Recherche du patient dans la base de données par email
+        var patient = await _patientService.GetPatientByEmailAsync(request.Email);
+
+        // Si le patient n'existe pas, retourner une réponse vide
+        if (patient == null)
+        {
+            return new GetPatientByEmailResponse();
+        }
+
+        // Retourner les informations du patient si trouvé
+        return new GetPatientByEmailResponse
+        {
+            Patient = new Patient
+            {
+                Id = patient.Id,
+                Name = patient.Name,
+                Address = patient.Address,
+                Email = patient.Email,
+                PhoneNumber = patient.PhoneNumber,
+                Gender = patient.Gender
+            }
+        };
+    }
+
+    public override async Task<PatientExistsResponse> CheckPatientExists(PatientEmail request, ServerCallContext context)
+    {
+        // Vérifier si le patient existe en utilisant l'email
+        var existingPatient = await _patientService.GetPatientByEmailAsync(request.Email);
+
+        // Retourner la réponse en fonction de l'existence du patient
+        var response = new PatientExistsResponse
+        {
+            Exists = existingPatient != null
+        };
+
+        return response;
     }
 
     public override async Task<UpdatePatientResponse> UpdatePatient(UpdatePatientRequest request, ServerCallContext context)
@@ -106,10 +155,32 @@ public class PatientServiceGrpc : PatientProto.PatientProtoBase
         };
     }
 
+   
+
     public override async Task<GetPatientRendezVousResponse> GetPatientRendezVous(GetPatientRendezVousRequest request, ServerCallContext context)
     {
+        // Retrieve the list of appointments for the specified patient ID
+        var appointments = await _appointmentService.GetAppointmentsByPatientIdAsync(request.PatientId);
 
-        return null;
+        // Create the response
+        var response = new GetPatientRendezVousResponse();
+        foreach (var appointment in appointments)
+        {
+            response.RendezVous.Add(new RendezVousDto
+            {
+                Id = appointment.Id,                                                                 // Appointment ID
+                PatientId = appointment.PatientId,                                                  // Patient ID
+                DoctorId = appointment.DoctorId,                                                    // Doctor ID
+                StartTime = Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(appointment.StartTime.ToUniversalTime()), // Start time
+                EndTime = Google.Protobuf.WellKnownTypes.Timestamp.FromDateTime(appointment.EndTime.ToUniversalTime()),     // End time
+                Notes = appointment.Notes ?? string.Empty,                                          // Notes (optional)
+                Status = appointment.Status                                                                        // Doctor's name
+            });
+        }
+
+        return response;
     }
+
+
 
 }

@@ -19,7 +19,7 @@ public class AppointmentService : IAppointmentService
 
     public async Task<List<AppointmentDto>> GetAppointmentsByPatientIdAsync(int patientId)
     {
-        var response = await _HttpClient.GetAsync($"{_AppointmentServiceUrl}/appointments/{patientId}");
+        var response = await _HttpClient.GetAsync($"{_AppointmentServiceUrl}/appointments/patient/{patientId}");
         response.EnsureSuccessStatusCode();
 
         return await response.Content.ReadFromJsonAsync<List<AppointmentDto>>();

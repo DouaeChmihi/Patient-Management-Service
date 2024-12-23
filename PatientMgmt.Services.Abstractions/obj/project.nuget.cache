@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "4l+YRO6/giM=",
+  "dgSpecHash": "TBaeq7x2vAc=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientMgmt.Services.Abstractions\\PatientMgmt.Services.Abstractions.csproj",
   "expectedPackageFiles": [
@@ -95,7 +95,10 @@
     "C:\\Users\\Hp\\.nuget\\packages\\system.threading.tasks.extensions\\4.3.0\\system.threading.tasks.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\Hp\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\Hp\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\toolbelt.entityframeworkcore.annotationbasedmodelbuilder\\5.0.1.2\\toolbelt.entityframeworkcore.annotationbasedmodelbuilder.5.0.1.2.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\toolbelt.entityframeworkcore.indexattribute\\5.0.1.2\\toolbelt.entityframeworkcore.indexattribute.5.0.1.2.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\toolbelt.entityframeworkcore.indexattribute.attribute\\5.0.1.2\\toolbelt.entityframeworkcore.indexattribute.attribute.5.0.1.2.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xSaR58vAv9A=",
+  "dgSpecHash": "Y0AHUR9xprI=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hp\\RiderProjects\\PatientMgmt\\PatientGmt.PatientGrpcService\\PatientGmt.PatientGrpcService.csproj",
   "expectedPackageFiles": [
@@ -88,6 +88,9 @@
     "C:\\Users\\Hp\\.nuget\\packages\\steeltoe.discovery.clientbase\\3.2.8\\steeltoe.discovery.clientbase.3.2.8.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\steeltoe.discovery.eureka\\3.2.8\\steeltoe.discovery.eureka.3.2.8.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\steeltoe.extensions.configuration.abstractions\\3.2.8\\steeltoe.extensions.configuration.abstractions.3.2.8.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\steeltoe.extensions.configuration.cloudfoundrybase\\3.2.8\\steeltoe.extensions.configuration.cloudfoundrybase.3.2.8.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\steeltoe.extensions.configuration.configserverbase\\3.2.8\\steeltoe.extensions.configuration.configserverbase.3.2.8.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\steeltoe.extensions.configuration.placeholderbase\\3.2.8\\steeltoe.extensions.configuration.placeholderbase.3.2.8.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\system.appcontext\\4.3.0\\system.appcontext.4.3.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\system.buffers\\4.3.0\\system.buffers.4.3.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",

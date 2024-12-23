@@ -77,6 +77,10 @@
             "Steeltoe.Discovery.Eureka": {
               "target": "Package",
               "version": "[3.2.8, )"
+            },
+            "Steeltoe.Extensions.Configuration.ConfigServerBase": {
+              "target": "Package",
+              "version": "[3.2.8, )"
             }
           },
           "imports": [

@@ -143,3 +143,6 @@ C:\Users\Hp\RiderProjects\PatientMgmt\PatientGmt.PatientGrpcService\bin\Debug\ne
 C:\Users\Hp\RiderProjects\PatientMgmt\PatientGmt.PatientGrpcService\bin\Debug\net8.0\Toolbelt.EntityFrameworkCore.AnnotationBasedModelBuilder.dll
 C:\Users\Hp\RiderProjects\PatientMgmt\PatientGmt.PatientGrpcService\bin\Debug\net8.0\Toolbelt.EntityFrameworkCore.IndexAttribute.dll
 C:\Users\Hp\RiderProjects\PatientMgmt\PatientGmt.PatientGrpcService\bin\Debug\net8.0\Toolbelt.EntityFrameworkCore.IndexAttribute.Attribute.dll
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientGmt.PatientGrpcService\bin\Debug\net8.0\Steeltoe.Extensions.Configuration.CloudFoundryBase.dll
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientGmt.PatientGrpcService\bin\Debug\net8.0\Steeltoe.Extensions.Configuration.ConfigServerBase.dll
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientGmt.PatientGrpcService\bin\Debug\net8.0\Steeltoe.Extensions.Configuration.PlaceholderBase.dll

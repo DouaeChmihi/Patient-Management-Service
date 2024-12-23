@@ -6,6 +6,8 @@ using PatientMgmt.Infrastracture.EF.Patients;
 using PatientMgmt.Services;
 using PatientMgmt.Services.Abstractions;
 using Steeltoe.Discovery.Client;
+using Steeltoe.Extensions.Configuration.ConfigServer;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add Steeltoe Discovery Eureka for service registration
@@ -13,6 +15,8 @@ builder.Services.AddDiscoveryClient(builder.Configuration);
 // Add services to the container.
 builder.Services.AddGrpc();
 
+// Add configuration from Spring Cloud Config Server
+builder.Configuration.AddConfigServer();
 
 // Register the service
 builder.Services.AddScoped<IPatientService, PatientService>();
@@ -25,6 +29,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
 );
 
+// You can now access the configuration values
+var configValue = builder.Configuration["spring.cloud.config.uri"];
+
+Console.WriteLine($"Config Value: {configValue}");
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

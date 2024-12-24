@@ -1,0 +1,15 @@
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\bin\Release\net8.0\PatientMgmt.DTO.deps.json
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\bin\Release\net8.0\PatientMgmt.DTO.runtimeconfig.json
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\bin\Release\net8.0\PatientMgmt.DTO.dll
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\bin\Release\net8.0\PatientMgmt.DTO.pdb
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\PatientMgmt.DTO.csproj.AssemblyReference.cache
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\PatientMgmt.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\PatientMgmt.DTO.AssemblyInfoInputs.cache
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\PatientMgmt.DTO.AssemblyInfo.cs
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\PatientMgmt.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\PatientMgmt.DTO.sourcelink.json
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\PatientMgmt.DTO.dll
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\refint\PatientMgmt.DTO.dll
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\PatientMgmt.DTO.pdb
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\PatientMgmt.DTO.genruntimeconfig.cache
+C:\Users\Hp\RiderProjects\PatientMgmt\PatientMgmt.DTO\obj\Release\net8.0\ref\PatientMgmt.DTO.dll

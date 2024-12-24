@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "3BQJ1OojpCcUoFjqnX61Wdb5Axg4vmEUVfi8ZwtQ37c=",
+  "Source": "PatientGmt.PatientGrpcService",
+  "BasePath": "_content/PatientGmt.PatientGrpcService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
